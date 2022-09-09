@@ -2,6 +2,10 @@
 
 # Belly Button Biodiversity
 
+## Results
+The dashboard consists of four major components.
+![](Resources/BB.png)  
+
 ## Summary
 The Dashboard has been deployed to Github.io pages.
 
