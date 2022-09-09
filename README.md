@@ -2,7 +2,9 @@
 
 # Belly Button Biodiversity
 
-## Results
+## Overview:
+
+## Results:
 The dashboard consists of four major components.
 
 ![](Resources/BB.png)  
