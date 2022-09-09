@@ -4,6 +4,7 @@
 
 ## Summary
 The Dashboard has been deployed to Github.io pages.
+
 [Belly Button Biodiversity](https://rafajos20.github.io/Belly_Button_Biodiversity/)
 
 ### Customizations:
