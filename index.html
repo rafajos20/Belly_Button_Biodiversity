@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+          <img class="img-responsive" id="banner" src="static/images/bellybutton.png" alt="Bellybutton" width="1200" height="500">
+          
+        <!--<p>Use the interactive charts below to explore the dataset</p>-->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class ="row">
+      <div class="col-md-12">
+        <h4>Your belly button, also called your navel, is where your umbilical cord attached you to your mother before you were born. All mammals have belly buttons include the humans. you could have an outie or, more likely, an innie. And innies are ripe for colonization, not only by lint, hair, and dead skin cells, but also by bacteria.
+          <br>
+          <br>A team of scientists launched the Belly Button Biodiversity Project to find out. For this project, people wiped cotton swabs in or on their belly buttons. The first group of 66 samples from participants. The research team discovered that belly buttons are very diverse habitats! In total, they discovered 2,368 different species. More than half of those may be new to science.
+          <br>
+          <br>The bacterias never before seen on human skin, like marimonas, which scientists had previously only seen in the ocean. And they even found bacteria that chefs use to make cheese, and, yes, somebody did exactly that. She grew the belly-button bacteria in a petri dish and then added it to milk. Sure enough, after a few hours, the milk curdled into cheese. Belly-button Brie, anyone?
+          <br>
+          <br>Use the interactive charts below to explore the dataset</h4>
+            
+      </div>
+    <div class="row">
+      <div class="col-md-2"  id="test-subject">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="static/js/charts.js"></script>
+
+</body>
+
+</html>
